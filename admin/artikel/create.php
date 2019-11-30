@@ -50,7 +50,7 @@ if (!$_SESSION['login']) {
                 </ol>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-1">
                             <div class="card">
                                 <div class="card-header">
                                     Tambah Artikel
@@ -81,7 +81,7 @@ if (!$_SESSION['login']) {
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <input type="hidden" name="id_user" value="<?php echo $user['id'] ?>">
+                                            
                                             <button type="submit" name="save" class="btn btn-primary btn-block">Simpan Data</button>
                                         </div>
                                     </form>
